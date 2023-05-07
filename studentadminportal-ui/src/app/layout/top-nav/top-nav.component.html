@@ -1,8 +1,18 @@
 <mat-toolbar color="primary">
     <div class="container">
-        <a routerLink="/" mat-fab color="accent">
-            <mat-icon>home</mat-icon>
-        </a>
-        <a routerLink="/students" mat-raised-button class="ml-1">Students</a>
+      <div class="row">
+        <div class="col-xs-6">
+            <a routerLink="/" mat-fab color="accent">
+                <mat-icon>home</mat-icon>
+            </a>
+            <a routerLink="/students" mat-raised-button class="ml-1">Students</a>
+
+        </div>
+        <div class="col-xs-6 end-xs">
+            <a routerLink="/login" mat-fab color="accent">
+                <mat-icon>login</mat-icon>
+            </a>
+        </div>
+      </div>
     </div>
 </mat-toolbar>

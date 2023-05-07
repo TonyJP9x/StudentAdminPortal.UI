@@ -3,7 +3,7 @@ table{
 }
 .search-input{
     border: 1px solid #CCC;
-    PADDING: 8PX 10PX;
+    padding: 8PX 10PX;
     border-radius:3px;
 }
 .search-input:active{
@@ -11,4 +11,7 @@ table{
 }
 .search-input:focus{
     border: 1px solid #AAA;
+}
+a:hover{
+    cursor: pointer;
 }

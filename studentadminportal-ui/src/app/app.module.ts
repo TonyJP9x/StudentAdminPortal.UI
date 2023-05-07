@@ -52,6 +52,7 @@ import { TopNavComponent } from './layout/top-nav/top-nav.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { StudentsComponent } from './students/students.component';
 import { ViewStudentComponent } from './students/view-student/view-student.component';
+import { LoginComponent } from './authen/login/login.component';
 
 
 
@@ -60,7 +61,8 @@ import { ViewStudentComponent } from './students/view-student/view-student.compo
     AppComponent,
     TopNavComponent,
     StudentsComponent,
-    ViewStudentComponent
+    ViewStudentComponent,
+    LoginComponent
   ],
   imports: [
     FormsModule,
